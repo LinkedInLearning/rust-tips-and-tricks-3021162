@@ -7,5 +7,11 @@ fn recursive_solution(n: u64) -> u64 {
 }
 
 fn main() {
-    
+    dbg!(
+        recursive_solution(1),
+        recursive_solution(2),
+        recursive_solution(3),
+        recursive_solution(4),
+        recursive_solution(5),
+    );
 }
