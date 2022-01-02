@@ -7,6 +7,8 @@ fn recursive_solution(n: u64) -> u64 {
 }
 
 fn main() {
+    println!("recursive_solution({}) = {}", 1, recursive_solution(1));
+
     dbg!(
         recursive_solution(1),
         recursive_solution(2),
