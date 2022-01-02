@@ -10,8 +10,8 @@ fn third_party_api(user: &str, password: &str) -> String {
 }
 
 fn main() {
-    let user = "Elton".to_string();
-    let password = "my_password".to_string();
+    let user = env!("USERNAME");
+    let password = option_env!("PASSWORD").expect("Need to set the 'PASSWORD' environment variable");
 
     println!("Access Token: {}", third_party_api(&user, &password))
 }
