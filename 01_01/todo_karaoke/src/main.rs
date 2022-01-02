@@ -20,6 +20,10 @@ impl Karaoke for Bubbles {
         }
         picked_song
     }
+
+    fn sing(&self, _song: String) -> Result<(), Error>{
+        todo!()
+    }
 }
 
 fn main() {
