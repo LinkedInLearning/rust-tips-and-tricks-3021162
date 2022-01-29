@@ -1,6 +1,6 @@
 fn commercials(hour: u32) -> String {
     match hour {
-        0..=7 => "Classic video bundle commerials".to_string(),
+        0..=7 => "Classic video bundle commercials".to_string(),
         8 | 12 | 18 => "Food commercials".to_string(),
         9..=11 | 13..=17 => "Clothing commercials".to_string(),
         19..=24 => "Season ticket commercials".to_string(),
