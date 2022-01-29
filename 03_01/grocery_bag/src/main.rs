@@ -1,10 +1,10 @@
-pub struct Bag {
+pub struct TheBag {
     bag: Vec<String>,
 }
 
-impl Bag {
+impl TheBag {
     pub fn new() -> Self {
-        Bag { bag: Vec::new() }
+        TheBag { bag: Vec::new() }
     }
 
     pub fn put_in_bag(&mut self, item: String) {
@@ -25,7 +25,7 @@ impl Bag {
 fn main() {
     println!("Program: Grocery Bag\n");
 
-    let mut bag = Bag::new();
+    let mut bag = TheBag::new();
 
     let items = vec![
         "Eggs".to_string(),
