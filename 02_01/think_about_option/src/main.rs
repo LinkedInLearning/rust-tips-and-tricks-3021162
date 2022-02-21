@@ -17,7 +17,7 @@ impl Invitation {
 
 fn main() {
     let invitation_1 = Invitation::new("Dolores".to_string(), true, None);
-    let invitation_2 = Invitation::new("Cosmo".to_string(), false, Some("Sorry. I am flying to Mars that week".to_string()));
+    let invitation_2 = Invitation::new("Cosmo".to_string(), false, Some("Sorry. I going to be flying to Mars that week".to_string()));
 
     println!("{:#?}", invitation_1);
     println!("{:#?}", invitation_2);
